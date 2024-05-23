@@ -8,17 +8,17 @@ git branch
 ### 브랜치 생성
 ```
 git branch {생성하려는 브랜치의 이름}
-git branch test
+#git branch test
 ```
 
 ### 브랜치 이동
-```
-// 구 버전 명령어) git checkout {이동하려는 브랜치의 이름}
-// 신 버전 명령어) git switch {이동하려는 브랜치의 이름}
-git switch test
+- 구 버전 명령어
+```Shell
+git checkout {이동하려는 브랜치의 이름}
+# git checkout test
 ```
 
-### 특정 브랜치에 push
-```
-git push origin test
-```
+- 신 버전 명령어
+```Shell
+git switch {이동하려는 브랜치의 이름}
+# git switch test
