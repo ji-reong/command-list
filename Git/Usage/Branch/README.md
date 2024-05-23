@@ -16,7 +16,9 @@ git branch {생성하려는 브랜치의 이름}
 # 구 버전 명령어
 git checkout {이동하려는 브랜치의 이름}
 # git checkout test
+```
 
+```Shell
 # 신 버전 명령어
 git switch {이동하려는 브랜치의 이름}
 # git switch test
