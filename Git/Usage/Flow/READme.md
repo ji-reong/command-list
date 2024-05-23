@@ -9,3 +9,4 @@ git status
 ```Shell
 git log
 ```
+- git log 빠져나오기: q 입력
