@@ -12,5 +12,5 @@ git config --list --global
 git config --list --local
 ```
 
--- 해당 저장소에만 쓰이는 정보
+- 해당 저장소에만 쓰이는 정보
 
