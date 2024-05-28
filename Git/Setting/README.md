@@ -19,3 +19,15 @@ git config --list --local
 git remote -v
 ```
 - v 옵션: verbose. 자세하게 출력.
+
+### 원격 저장소 추가
+```Shell
+git remote add {원격 저장소의 이름} {원격 저장소의 주소}
+# git remote add origin https://github.com/jee-in/command-list.git
+```
+
+### 원격 저장소 삭제
+```Shell
+git remote remove {삭제하려는 원격 저장소의 이름}
+# git remote remove origin
+```
