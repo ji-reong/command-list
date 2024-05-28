@@ -46,7 +46,8 @@ git pull {원격 저장소의 이름 또는 주소} {브랜치의 이름}
 
 ### 다른 브랜치로 merge
 ```Shell
-git merge {병합의 target이 되는 브랜치}
+git merge {현 브랜치에 병합하려는 브랜치의 이름}
 #예시: git merge main
 ```
-- test 브랜치를 main으로 병합하고 싶다면 `git switch test`를 입력하여 test 브랜치로 이동한 후, `git merge main`을 입력하면 됩니다.
+- test 브랜치에 main 브랜치를 병합하고 싶다면 `git switch test`를 입력하여 test 브랜치로 이동한 후, `git merge main`을 입력하면 됩니다.
+- main 브랜치에 test 브랜치를 병합하고 싶다면 `git switch main`을 입력하여 main 브랜치로 이동한 후, `git merge test`를 입력하면 됩니다.
